@@ -1,0 +1,15 @@
+a:visited{
+    color: brown;
+    font-size: 30px;
+}
+a:hover{
+    color: green;
+    font-size: 20px;
+}
+input:focus{
+    border: 2px solid red;
+    outline: none;
+}
+p::before{
+    content:'-';
+}

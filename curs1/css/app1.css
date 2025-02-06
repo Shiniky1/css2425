@@ -1,0 +1,23 @@
+*{
+    text-align: center;
+}
+div{
+    background: purple;
+    border: solid 10px;
+    border-color: black;
+    color: red;
+    padding-left: 540px;
+}
+div>div{
+    background: rgb(195, 182, 195);
+    border:solid 10px;
+    border-color: black;
+    color: rgb(3, 5, 4);
+    padding-left: 540px;
+}
+div>div>div{
+    background: rgb(0, 36, 128);
+    border: solid 10px;
+    border-color: rgb(118, 108, 108);
+    color: rgb(102, 255, 0);
+}

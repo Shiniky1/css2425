@@ -1,0 +1,9 @@
+#titlu{
+    width: 600px;
+    margin: auto;
+    border-bottom: 6px red solid;
+}
+.text{
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
