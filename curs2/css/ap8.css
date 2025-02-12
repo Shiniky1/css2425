@@ -1,0 +1,19 @@
+body{
+    background-image: url("../pozze/rocket.png"),url("../pozze/earth.png"),url("../pozze/space.jpg");
+    background-repeat: no-repeat,no-repeat,repeat;
+    background-size: 20% 20%,center center,0% 0%;
+    height:100vh;
+    animation-name: demo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+@keyframes demo{
+    from{
+        background-position: 20% 20%,center center, 0 0;
+    }
+    to{
+        background-position: 60% 20%, center center, -1240px 0;
+    }
+}

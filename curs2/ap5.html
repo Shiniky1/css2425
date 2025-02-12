@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/ap5.css">
+</head>
+<body>
+    
+    <div style="position: relative; width:640px; height:320px; margin:15px auto; overflow:hidden">
+        <ul class="slider">
+            <li><img src="./pozze/1.jpg" alt="1"></li>
+            <li><img src="./pozze/2.jpg" alt="2"></li>
+            <li><img src="./pozze/3.jpg" alt="3"></li>
+            <li><img src="./pozze/4.jpeg" alt="4"></li>
+            <li><img src="./pozze/1.jpg" alt="5"></li>
+        </ul>
+    </div>
+    <script>
+        const images=document.getElementsByTagName('img')
+            console.log('images:',images);
+            for(let i=0;i<images.length;i++){
+                images[i].addEventListener("mouseover",function(eveniment){
+                    slider.style.animation="none"; 
+                })
+            }
+            
+        
+    </script>
+
+</body>
+</html>
